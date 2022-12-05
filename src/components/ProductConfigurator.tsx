@@ -25,7 +25,7 @@ import { Summary } from './Summary';
 // Styled components
 import { Container, Image, PageTitle } from './ProductConfigurator.style';
 
-export const ProductConfigurator = () => {
+export const ProductConfigurator = (): JSX.Element => {
   const [metadata, setMetadata] = useState<ProductsMetadata | undefined>();
   const [fields, setFields] = useState<InputFields>({});
   const [summary, setSummary] = useState<SummaryFields>(fields);

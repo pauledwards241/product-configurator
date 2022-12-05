@@ -1,7 +1,7 @@
 // Styled components
 import { Text } from './Introduction.style';
 
-export const Introduction = () => (
+export const Introduction = (): JSX.Element => (
   <Text>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare dui
     vel felis laoreet blandit. Nam dignissim lacinia molestie. Aliquam commodo
